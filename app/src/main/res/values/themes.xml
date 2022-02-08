@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.KendroBindu" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <item name="android:statusBarColor" tools:targetApi="l">@color/light_blue</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.KendroBindu.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.KendroBindu.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.KendroBindu.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
