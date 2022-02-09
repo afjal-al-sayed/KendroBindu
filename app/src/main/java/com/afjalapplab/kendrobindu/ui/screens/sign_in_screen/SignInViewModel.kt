@@ -11,11 +11,14 @@ class SignInViewModel: ViewModel() {
         private set
     var password by mutableStateOf("123456")
         private set
+    var isPasswordVisible by mutableStateOf(false)
+        private set
 
     fun onEvent(event: SignInScreenEvents){
         when(event){
             is SignInScreenEvents.OnEmailChanged -> { email = event.email }
             is SignInScreenEvents.OnPasswordChanged -> { password = event.password }
+            is SignInScreenEvents.OnPasswordVisibilityToggle -> { isPasswordVisible = !isPasswordVisible }
             is SignInScreenEvents.OnSignInButtonPressed -> {
 
             }

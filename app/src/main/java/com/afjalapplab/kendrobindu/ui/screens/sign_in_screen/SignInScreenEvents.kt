@@ -5,4 +5,5 @@ sealed class SignInScreenEvents{
     data class OnPasswordChanged(val password: String): SignInScreenEvents()
     object OnSignInButtonPressed: SignInScreenEvents()
     object OnRegisterButtonPressed: SignInScreenEvents()
+    object OnPasswordVisibilityToggle: SignInScreenEvents()
 }
