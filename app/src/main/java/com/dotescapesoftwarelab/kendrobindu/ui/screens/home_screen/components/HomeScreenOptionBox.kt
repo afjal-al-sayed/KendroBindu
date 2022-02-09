@@ -67,6 +67,7 @@ fun RowScope.HomeScreenOptionBox(
                     fontSize = 18.sp
                 ),
                 modifier = Modifier
+                    .padding(horizontal = 8.dp)
             )
         }
     }
