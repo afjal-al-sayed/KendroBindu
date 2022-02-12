@@ -38,7 +38,7 @@ fun SignInScreen(
         ){
             item{
                 SignInScreenHeader()
-                Spacer(modifier = Modifier.height(72.dp))
+                Spacer(modifier = Modifier.height(96.dp))
                 SignInSection(viewModel = viewModel)
                 Spacer(modifier = Modifier.height(72.dp))
             }

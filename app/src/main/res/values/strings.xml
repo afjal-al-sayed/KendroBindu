@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">KendroBindu</string>
+    <string name="sign_up_screen_header_message">Fill up the form with your information and click register button. You will be able to use this app when your application is approved by the admins.</string>
 </resources>

@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import com.afjalapplab.kendrobindu.ui.screens.sign_in_screen.SignInScreen
+import com.afjalapplab.kendrobindu.ui.screens.sign_up_screen.SignUpScreen
 import com.afjalapplab.kendrobindu.ui.theme.KendroBinduTheme
 
 class MainActivity : ComponentActivity() {
@@ -14,7 +15,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             KendroBinduTheme {
                 Surface(color = MaterialTheme.colors.background) {
-                    SignInScreen()
+                    SignUpScreen()
                 }
             }
         }
